@@ -1,0 +1,100 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+
+    <div class="warning-win">
+        <div class="first-warning pop-up warning-inactive">
+            <p><span class="error-sign"><i class="fa fa-exclamation-circle"></i></span>
+                You email or password is incorrect. Please try again.</p>
+        </div>
+
+        <div class="second-warning pop-up warning-inactive">
+            <p><span class="error-sign"><i class="fa fa-exclamation-circle"></i></span>
+                One or both required credentials not entered. Please try again</p>
+        </div>
+
+        <div class="third-warning pop-up warning-inactive">
+            <p><span class="error-sign"><i class="fa fa-exclamation-circle"></i></span>
+                Your information does not exist in our records. We recommend you sign up.</p>
+        </div>
+
+        <div class="last-warning pop-up warning-inactive">
+            <p><span class="error-sign"><i class="fa fa-exclamation-circle"></i></span>
+                You have tried too many times. Server will restart.</p>
+        </div>
+    </div>
+
+    <div class="login-container" >
+        
+        <div class="login-page">
+            <!-- <div class="close__btn"><i class="fa fa-window-close"></i></div> -->
+            <div class="profile-initial profile">
+                
+                <div class="icon">
+                    <i class="fa fa-user-circle" ></i>
+                    <p class="welcome-note">Log in to get started</p>
+                    <div class="slide hidden">
+                        <p class="st nonvisible-1 nonvisible">We're checking your credentials</p>
+                        <p class="st nonvisible-2 nonvisible">Please bear with us</p>
+                        <p class="st nonvisible-3 nonvisible">Thank you for patience</p>
+                    </div>
+                    
+                </div>
+
+                <div class="reminder reminder-hide">
+                    <p class="notifications">Notification </p>
+                    <p class="new">What's New </p>
+                </div>
+                
+            </div>
+            
+            <div class="content-login">
+                <div class="info-part">
+                    
+                    <div class="email-part">
+        
+                        <div class="label-part">
+                            <i class="fa fa-at"></i>    
+                        </div>
+            
+                        <input type="text" id="email-input" name="email-input" placeholder="Email Address">
+            
+                    </div>
+                
+                    <div class="password-part">
+            
+                        <div class="label-part">
+                            <i class="fa fa-key"></i>
+                        </div>
+                        
+                        <input type="text" id="password-input" name="password-input" placeholder="Password">
+                    </div>
+        
+                    <div class="login__btn"><a href="#">Submit</a></div>
+        
+                </div>
+                
+                <div class="login-footer">
+                
+                    <a href="registerpage.html" class="reg-opt">Don't have an account? Register</a>
+                    <a href="#" class="forgot-password">Forgot Password?</a>
+                </div>
+            </div>
+    
+        </div>
+
+    </div>
+    
+
+
+    <script src="login.js"></script>
+    
+</body>
+</html>
